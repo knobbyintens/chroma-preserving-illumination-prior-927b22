@@ -1,0 +1,12 @@
+seed: 1337
+data:
+  train_root: /data/lol
+  val_root: /data/lol-eval
+model:
+  base_width: 32
+  gate_hidden: 16
+train:
+  epochs: 120
+  batch_size: 16
+  lr: 0.0002
+  chroma_weight: 0.35
